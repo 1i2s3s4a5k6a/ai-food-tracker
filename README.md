@@ -1,41 +1,39 @@
-# 🍎 FreshTrack AI 
+# 🍎 FreshTrack AI (2026 Edition)
 
-> **Stop Waste, Save Freshness.** An AI-powered food inventory manager that detects spoilage and scans expiry dates in real-time.
-
----
-
-## 🚀 Overview
-FreshTrack AI solves the $1 trillion global food waste problem by giving users "digital eyes" for their kitchen. It uses Computer Vision to analyze produce freshness and OCR to track packaged goods.
-
-### ✨ Key Features
-* **AI Freshness Analysis:** Detects rot, mold, and wilting in produce using a custom CNN.
-* **Smart OCR Scanner:** Automatically extracts "Best Before" dates from packaging.
-* **Virtual Fridge:** A digital inventory that syncs your groceries to your phone.
-* **Proactive Alerts:** Push notifications sent 24 hours before food expires.
-* **Recipe Suggestions:** (Beta) Suggests meals based on what's about to spoil.
+> **"Digital Eyes for your Kitchen."** An AI-driven application designed to reduce food waste through visual freshness analysis and automated expiry tracking.
 
 ---
 
-## 🛠 Tech Stack
-- **Frontend:** Flutter (iOS/Android)
-- **Backend:** FastAPI (Python)
-- **AI/ML:** TensorFlow, MobileNetV2, EasyOCR
-- **Database:** SQLAlchemy (SQLite/Postgres)
-- **Deployment:** Docker, Google Cloud Run
+## 🌟 The Vision
+By 2026, we aim to reduce household food waste by 25%. FreshTrack AI uses **Computer Vision** to see what you see, identifying rot before it happens and reading labels so you don't have to.
+
+### 🚀 Core Features
+* **AI Freshness Scanner:** Real-time visual analysis of produce (Apples, Bananas, Spinach, etc.).
+* **OCR Expiry Detection:** Automatically extracts "Best Before" dates from packaged items.
+* **Virtual Inventory:** A synchronized list of your fridge contents.
+* **Smart Reminders:** Push notifications sent 24 hours before an item is predicted to spoil.
 
 ---
 
-## 📸 Screenshots
-| Freshness Scan | Expiry Detection | Fridge View |
-| :---: | :---: | :---: |
-| ![Scan](https://via.placeholder.com/200x400?text=AI+Analysis) | ![OCR](https://via.placeholder.com/200x400?text=Date+Scanner) | ![Fridge](https://via.placeholder.com/200x400?text=Inventory) |
+## 🛠 Project Structure
+- **/backend**: Python FastAPI service handling the AI models and database logic.
+- **/mobile_app**: Flutter application for iOS and Android.
 
 ---
 
-## ⚙️ Installation
+## 🧪 Installation (Developer Mode)
 
-### 1. Backend (Python)
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+### Backend
+1. Install dependencies: `pip install -r requirements.txt`
+2. Start server: `uvicorn main:app --reload`
+
+### Mobile App
+1. Get packages: `flutter pub get`
+2. Launch app: `flutter run`
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+© 2026 FreshTrack AI Team
+
