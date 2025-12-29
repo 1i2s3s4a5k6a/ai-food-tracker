@@ -1,0 +1,7 @@
+fastapi[standard]
+uvicorn
+tensorflow-cpu
+pillow
+easyocr
+sqlalchemy
+python-multipart
